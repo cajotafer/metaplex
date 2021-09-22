@@ -207,6 +207,7 @@ export const mintNFT = async (
       {
         method: 'POST',
         body: data,
+        mode: 'no-cors'
       },
     )
   ).json();
